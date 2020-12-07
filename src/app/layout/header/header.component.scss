@@ -1,0 +1,80 @@
+.header_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 40px;
+  height: 100px;
+  .logo img {
+    max-width: 100%;
+    margin: 15px 0px 20px 0px;
+  }
+  .notification_section {
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-left: 60px;
+        a {
+          text-decoration: none;
+          color: #d5d5d5;
+          font-size: 36px;
+        }
+      }
+    }
+  }
+}
+.mat-toolbar {
+  background-color: white;
+  height: 100px;
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .logo img {
+    max-width: 100%;
+    margin: 30px 0 0;
+  }
+  .notification_section {
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-left: 60px;
+        a {
+          text-decoration: none;
+          color: #d5d5d5;
+
+          span {
+            font-size: 36px;
+          }
+        }
+      }
+    }
+  }
+}
+.icon-display {
+  transform: scale(2);
+  color: #d5d5d5;
+  position: relative;
+  padding: 5px;
+  margin: 3px;
+  margin-top: 16px;
+}
+.mat-button .mat-ripple.mat-button-ripple {
+  transition-duration: 0ms !important;
+  display: none;
+}
+.material-icons {
+  font-size: 18px;
+  height: 18px;
+  width: 18px;
+}
+.material-icon-logout{
+  color: #9e9e9e;
+  font-size: 30px;
+  margin: 0 0 2px -40px;
+}
+
+.mat-flat-button.btn-rounded {
+  font-size: 0.75em !important;
+  margin-right: 6%;
+}
